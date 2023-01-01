@@ -12,7 +12,6 @@ def about(request):
     return render(request, 'main/about.html')
 
 
-
 def registration(request):
     return render(request, 'main/registration.html')
 
