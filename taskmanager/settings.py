@@ -116,4 +116,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-LOGIN_REDIRECT_URL = reverse_lazy('web:profile')
+LOGIN_REDIRECT_URL = reverse_lazy("profile:profile")
