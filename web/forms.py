@@ -1,8 +1,6 @@
 from django.contrib.auth.forms import UserCreationForm
 
-
-class Buyer:
-    pass
+from main.models import Buyer
 
 
 class RegisterForm(UserCreationForm):

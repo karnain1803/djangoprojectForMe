@@ -13,3 +13,7 @@ def profile_view(request):
 class RegisterView(FormView):
     form_class = RegisterForm
     template_name = 'registration/register.html'
+
+    def form_valid(self, form):
+        form.save()
+        return super().form_valid(form)
