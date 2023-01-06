@@ -12,10 +12,6 @@ def about(request):
     return render(request, 'main/about.html')
 
 
-def registration(request):
-    return render(request, 'main/registration.html')
-
-
 def create(request):
     error = ''
     if request.method == 'POST':

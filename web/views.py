@@ -1,8 +1,8 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
-from django.views.generic import CreateView, FormView
+from django.views.generic import FormView
 
-from web.forms import Buyer, RegisterForm
+from web.forms import RegisterForm
 
 
 @login_required
