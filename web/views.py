@@ -1,5 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
+from django.views.decorators.csrf import requires_csrf_token
 from django.views.generic import FormView
 
 from web.forms import RegisterForm
